@@ -3,29 +3,27 @@ Projects of the class Data structures, ECE AUTH
 # **Java Data Structures & Board Game Implementation**
 
 ## **Overview**
-This project is a collection of Java implementations of fundamental data structures and a simple board game. It includes:  
+This project contains Java implementations of fundamental data structures and a simple board game. The included components are:  
 
-- **Circular Queue**: A dynamically expanding queue with circular functionality.  
-- **Singly Linked List**: A basic linked list implementation with insertion and deletion operations.  
-- **Board Game**: A grid-based game with move validation, piece flipping, and score calculation.  
+- **Circular Queue**: A queue with circular functionality that dynamically expands.  
+- **Singly Linked List**: A basic implementation of a singly linked list with insertion and deletion operations.  
+- **Board Game**: A grid-based game with move validation, piece flipping, and game state checking.  
 
-The project is designed for educational purposes and demonstrates key programming concepts such as data structure manipulation, object-oriented programming (OOP), and game logic implementation.
+The project demonstrates core concepts of data structure manipulation and object-oriented programming (OOP).
 
 ---
 
 ## **Project Structure**
-| File               | Description |
-|--------------------|-------------|
-| `CircularQueue.java`  | Implements a **Circular Queue** using an array with dynamic expansion. |
-| `SingleList.java`  | Implements a **Singly Linked List**, supporting insertion and deletion operations. |
-| `Node.java`        | Represents a **node** for the linked list. |
-| `Board.java`       | Implements the **Board Game** logic, including move validation and game rules. |
-| `Move.java`        | Represents a move in the game and manages coordinates. |
+| File                 | Description |
+|----------------------|-------------|
+| `Project_1a.txt`  | Implements a **Circular Queue** using an array with dynamic expansion. |
+| `Project_1b.txt`  | Implements a **Singly Linked List**, supporting insertion and deletion operations. |
+| `Project_2.txt`   | Implements a **Board Game** with game state management, move validation, and piece flipping. |
 
 ---
 
 ## **Detailed Descriptions**
-### **1. Circular Queue (`CircularQueue.java`)**
+### **1. Circular Queue (`Project_1a.txt`)**
 - Implements a **FIFO (First In, First Out)** queue using an array.  
 - Supports **enqueue (insertion)** and **dequeue (removal)** operations.  
 - Dynamically **expands capacity** when the queue is full.  
@@ -41,7 +39,7 @@ The project is designed for educational purposes and demonstrates key programmin
 
 ---
 
-### **2. Singly Linked List (`SingleList.java` & `Node.java`)**
+### **2. Singly Linked List (`Project_1b.txt`)**
 - Implements a **linked list** with dynamic memory allocation.  
 - Supports **insertion at the end** and **deletion of first two elements**.  
 - Uses **nodes** to store values and pointers to the next element.  
@@ -55,7 +53,7 @@ The project is designed for educational purposes and demonstrates key programmin
 
 ---
 
-### **3. Board Game (`Board.java` & `Move.java`)**
+### **3. Board Game (`Project_2.txt`)**
 - Implements a **grid-based game** similar to Reversi/Othello.  
 - Supports **move validation, piece flipping, and score tracking**.  
 - Uses **object-oriented principles** with `Move` and `Board` classes.  
@@ -81,8 +79,5 @@ The project is designed for educational purposes and demonstrates key programmin
 - Java Development Kit (JDK) installed.  
 
 ### **Steps**
-1. **Compile the Java files**  
-   ```sh
-   javac CircularQueue.java
-   javac SingleList.java Node.java
-   javac Board.java Move.java
+1. **Ensure the files are renamed to `.java` format before compilation.**  
+
